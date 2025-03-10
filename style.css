@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+}
+div.imagen1 img {
+  border-radius: 50px;
+  filter: drop-shadow(20px 20px 20px aquamarine);
+  height: 700px;
+}
+div.imagen2 img {
+  border-radius: 50px;
+  filter: drop-shadow(0 0 20px darkblue);
+}
+img {
+  width: 400px;
+  margin: 30px auto;
+}
+div {
+  display: inline-block;
+  border: solid 5px #3e8a8f;
+  border-radius: 20px;
+  padding: 30px;
+}
