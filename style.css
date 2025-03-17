@@ -4,19 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  background-color: azure;
-}
-div.imagen1 img {
-  border-radius: 50px;
-  filter: drop-shadow(20px 20px 20px aquamarine);
-  height: 700px;
-}
-div.imagen2 img {
-  border-radius: 50px;
-  filter: drop-shadow(0 0 20px darkblue);
+  background-color: rgb(235, 235, 229);
 }
 img {
-  width: 400px;
+  width: 300px;
+  height: 300px;
   margin: 30px auto;
 }
 div {
@@ -25,3 +17,63 @@ div {
   border-radius: 20px;
   padding: 30px;
 }
+div.imagen1 img {
+  filter: drop-shadow(20px 10px 20px rgb(61, 247, 185));
+}
+div.imagen2 img {
+  filter: drop-shadow(20px 20px 20px rgb(115, 223, 89));
+}
+div.imagen3 img {
+  filter: drop-shadow(20px 20px 20px rgb(88, 0, 88));
+}
+div.imagen4 img {
+  filter: drop-shadow(20px 20px 20px rgb(84, 150, 46));
+}
+div.imagen5 img {
+  filter: drop-shadow(20px 20px 20px rgb(127, 230, 230));
+}
+div.imagen6 img {
+  filter: drop-shadow(20px 20px 20px rgb(255, 123, 0));
+}
+div.imagen7 img {
+  filter: drop-shadow(20px 20px 20px rgb(28, 46, 104));
+}
+div.imagen8 img {
+  filter: drop-shadow(20px 20px 20px rgb(205, 171, 233));
+}
+div.imagen9 img {
+  filter: drop-shadow(20px 20px 20px rgb(255, 0, 0));
+}
+div.imagen10 img {
+  filter: drop-shadow(20px 20px 20px rgb(46, 1, 1));
+} 
+div.imagen11 img {
+  filter: drop-shadow(20px 20px 20px rgb(55, 219, 192));
+}
+div.imagen12 img {
+  filter: drop-shadow(20px 20px 20px rgb(236, 134, 103));
+}
+div.imagen13 img {
+  filter: drop-shadow(20px 20px 20px rgb(172, 129, 12));
+}
+div.imagen14 img {
+  filter: drop-shadow(20px 20px 20px rgb(60, 116, 8));
+}
+div.imagen15 img {
+  filter: drop-shadow(20px 20px 20px rgb(24, 100, 1));
+}
+div.imagen16 img {
+  filter: drop-shadow(20px 20px 20px rgb(122, 41, 41));
+}
+div.imagen17 img {
+  filter: drop-shadow(20px 20px 20px rgb(72, 62, 206));
+}
+div.imagen18 img {
+  filter: drop-shadow(20px 20px 20px rgb(9, 11, 105));
+}
+div.imagen19 img {
+  filter: drop-shadow(20px 20px 20px rgb(243, 183, 55));
+}
+div.imagen20 img {
+  filter: drop-shadow(20px 20px 20px rgb(230, 90, 55));
+} 
