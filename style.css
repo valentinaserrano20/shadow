@@ -6,6 +6,7 @@
 body {
   background-color: rgb(235, 235, 229);
   text-align: center;
+  font-weight: bold;
 }
 img {
   width: 300px;
@@ -17,6 +18,34 @@ div {
   border: solid 5px #3e8a8f;
   border-radius: 20px;
   padding: 30px;
+  margin: 5px;
+}
+div h2 {
+  font-style: italic;
+}
+div.ginyu2 img {
+  filter: drop-shadow(10px 10px 20px rgb(181, 124, 235));
+}
+div.freezer img {
+  filter: drop-shadow(0px 0px 10px rgb(119, 0, 255));
+}
+div.yamcha img {
+  filter: drop-shadow(5px 5px 10px rgb(255, 136, 0));
+}
+div.drgero img {
+  filter: drop-shadow(20px 20px 20px rgb(77, 38, 3));
+}
+div.dodoria img {
+  filter: drop-shadow(0px 0px 10px rgb(255, 2, 221));
+}
+div.dispore img {
+  filter: drop-shadow(5px 5px 20px rgb(153, 85, 199));
+}
+div.dende img {
+  filter: drop-shadow(20px 20px 20px rgb(108, 194, 82));
+}
+div.chichi img {
+  filter: drop-shadow(4px 4px 10px rgb(110, 3, 48));
 }
 div.bulma img {
   filter: drop-shadow(20px 10px 20px rgb(61, 247, 185));
@@ -47,39 +76,9 @@ div.toppo img {
 }
 div.tenshinhan img {
   filter: drop-shadow(20px 20px 20px rgb(46, 1, 1));
-} 
+}
 div.shin img {
   filter: drop-shadow(20px 20px 20px rgb(55, 219, 192));
-}
-div.roshi img {
-  filter: drop-shadow(20px 20px 20px rgb(236, 134, 103));
-}
-div.raditz img {
-  filter: drop-shadow(20px 20px 20px rgb(172, 129, 12));
-}
-div.picolo img {
-  filter: drop-shadow(20px 20px 20px rgb(60, 116, 8));
-}
-div.nail img {
-  filter: drop-shadow(20px 20px 20px rgb(24, 100, 1));
-}
-div.mrsatan img {
-  filter: drop-shadow(20px 20px 20px rgb(122, 41, 41));
-}
-div.marcarita img {
-  filter: drop-shadow(20px 20px 20px rgb(72, 62, 206));
-}
-div.lunch img {
-  filter: drop-shadow(20px 20px 20px rgb(9, 11, 105));
-}
-div.krillin img {
-  filter: drop-shadow(20px 20px 20px rgb(243, 183, 55));
-}
-div.kibito img {
-  filter: drop-shadow(20px 20px 20px rgb(230, 90, 55));
-} 
-div.kibito2 img {
-  filter: drop-shadow(0px 0px 20px rgb(114, 20, 20));
 }
 div.kaio1 img {
   filter: drop-shadow(20px 20px 20px rgb(0, 0, 0));
@@ -107,7 +106,39 @@ div.kaio8 img {
 }
 div.kaio9 img {
   filter: drop-shadow(0px 0px 10px rgb(235, 134, 218));
-} 
+}
+div.roshi img {
+  filter: drop-shadow(20px 20px 20px rgb(236, 134, 103));
+}
+div.raditz img {
+  filter: drop-shadow(20px 20px 20px rgb(172, 129, 12));
+}
+div.picolo img {
+  filter: drop-shadow(20px 20px 20px rgb(60, 116, 8));
+}
+div.nail img {
+  filter: drop-shadow(20px 20px 20px rgb(24, 100, 1));
+}
+
+div.mrsatan img {
+  filter: drop-shadow(20px 20px 20px rgb(122, 41, 41));
+}
+div.marcarita img {
+  filter: drop-shadow(20px 20px 20px rgb(72, 62, 206));
+}
+div.lunch img {
+  filter: drop-shadow(20px 20px 20px rgb(9, 11, 105));
+}
+div.krillin img {
+  filter: drop-shadow(20px 20px 20px rgb(243, 183, 55));
+}
+div.kibito img {
+  filter: drop-shadow(20px 20px 20px rgb(230, 90, 55));
+}
+div.kibito2 img {
+  filter: drop-shadow(0px 0px 20px rgb(114, 20, 20));
+}
+
 div.jiren img {
   filter: drop-shadow(10px 10px 50px rgb(167, 122, 71));
 }
@@ -131,30 +162,6 @@ div.gohan img {
 }
 div.ginyu img {
   filter: drop-shadow(10px 10px 10px rgb(219, 152, 28));
-}
-div.ginyu2 img {
-  filter: drop-shadow(10px 10px 20px rgb(181, 124, 235));
-}
-div.freezer img {
-  filter: drop-shadow(0px 0px 10px rgb(119, 0, 255));
-}
-div.yamcha img {
-  filter: drop-shadow(5px 5px 10px rgb(255, 136, 0));
-}
-div.drgero img {
-  filter: drop-shadow(20px 20px 20px rgb(77, 38, 3));
-}
-div.dodoria img {
-  filter: drop-shadow(0px 0px 10px rgb(255, 2, 221));
-}
-div.dispore img {
-  filter: drop-shadow(5px 5px 20px rgb(153, 85, 199));
-}
-div.dende img {
-  filter: drop-shadow(20px 20px 20px rgb(108, 194, 82));
-}
-div.chichi img {
-  filter: drop-shadow(4px 4px 10px rgb(110, 3, 48));
 }
 div.celula img {
   filter: drop-shadow(5px 5px 10px rgb(52, 175, 52));
