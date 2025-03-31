@@ -4,24 +4,26 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(235, 235, 229);
   text-align: center;
-  font-weight: bold;
+  background-color: rgb(235, 235, 229);
 }
 img {
   width: 300px;
   height: 300px;
-  margin: 30px auto;
+  margin: 30px 100px;
 }
 div {
   display: inline-block;
-  border: solid 5px #3e8a8f;
+  border: solid 5px #696765;
   border-radius: 20px;
   padding: 30px;
   margin: 5px;
 }
-div h2 {
-  font-style: italic;
+h1{
+  font-size: 100px;
+  color: #9c310d;
+  font-style: italic ;
+  font-weight: bold;
 }
 div.ginyu2 img {
   filter: drop-shadow(10px 10px 20px rgb(181, 124, 235));
@@ -198,4 +200,8 @@ div.dokkan15 img {
 }
 div.dokkan14 img {
   filter: drop-shadow(10px 10px 10px rgb(144, 197, 233));
+}
+div:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
 }
