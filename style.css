@@ -7,15 +7,11 @@
 
 body {
   text-align: center;
-  background-color: rgb(235, 235, 229);
-
-  background-image: linear-gradient(
-      to top,
-      rgba(9, 32, 63, 0.449) 0%,
-      rgba(83, 120, 149, 0.603) 100%
-    ),
-    url(characters/fondo.jpg);
-  background-size: cover;
+  background-color: rgb(184, 86, 167);
+  background-image: linear-gradient(to top, #7028e481 0%, #e5b2caa9 100%),url(./characters/space.jpg); ;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
 
 h1 {
@@ -33,9 +29,9 @@ h1 {
   margin: 0 auto;
 }
 .card {
-  width: 350px;
+  width: 300px;
   height: auto;
-  background-color: #c2c2c2;
+  background-color: #c5bdbd;
   border-radius: 6px;
   padding: 10px;
   display: inline-block;
