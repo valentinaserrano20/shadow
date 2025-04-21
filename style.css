@@ -26,6 +26,9 @@ h1 {
 .card__header {
   font-family: "Lilita One", sans-serif;
   font-size: 22px;
+  text-shadow: #c053ffa8 2px 5px 3px;
+  text-transform: uppercase;
+  color:rgb(75, 32, 2);
 }
 
 .container {
@@ -38,13 +41,14 @@ h1 {
 .card {
   width: 18.7em;
   height: 37em;
-  background-color: #c5bdbd;
+  background: linear-gradient(#e6646450, #9198e53a);
   border-radius: 6px;
   padding: 10px;
   display: inline-block;
   margin: 10px;
   transition: 1s;
   cursor: pointer;
+  border: none;
 }
 
 .card__body {
@@ -67,6 +71,7 @@ h1 {
 .card:hover img {
   transform: scale3d(1.2, 1.2, 1.2);
   transition: 1s;
+  filter: drop-shadow(rgb(255, 255, 255) 5px 5px 10px);
 }
 
 .card__footer {
@@ -74,58 +79,7 @@ h1 {
   font-size: 1.1rem;
 }
 
-.card__goku h2 {
-  color: #cc812a;
-}
-
-.card__goku img {
-  filter:drop-shadow(0 0 10px #f88502);
-}
-
-.card__goku p {
-  color: #8d5310;
-}
-
-.card__vegeta .card__body {
-  filter: drop-shadow(5px 3px 10px rgb(24, 26, 170));
-}
-
-.card__gohan img {
-  filter: drop-shadow(10px 10px 10px rgb(30, 1, 63));
-}
-
-.card__trunks .card__body {
-  filter: drop-shadow(5px 5px 10px rgb(168, 143, 238));
-}
-
-.card__krilin img {
-  filter: drop-shadow(8px 5px 3px rgb(231, 177, 133));
-}
-
-.card__yamcha .card__body {
-  filter: drop-shadow(5px 5px 10px rgb(29, 11, 2));
-}
-
-.card__gotenks{
+/* .card .card__gotenks{
+  background: initial
   background: radial-gradient(circle at 50% 0%, #a82b2b, #976565, #5e1616, #808080, #4d4d4d, #262626);
-}
-
-.card__whis h2{
-  text-transform:uppercase;
-  text-shadow: #568f99 2px 5px;
-}
-
-.contenedor__dif{
-  background-color: #c5bdbd;
-}
-.contenedor__dif p {
-  font-size: 10px;
-}
-
-.contenedor__dif h2 {
-  font-size: 10rem;
-}
-
-.contenedor__dif h3 {
-  font-size: 10em;
-}
+} */
