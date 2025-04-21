@@ -62,3 +62,19 @@ h1 {
   font-family: "Atma", system-ui;
   font-size: 16px;
 }
+
+.card__goku h2 {
+  color: #cc812a;
+}
+
+.card__goku img {
+  filter:drop-shadow(0 0 10px #f88502);
+}
+
+.card__goku p {
+  color: #8d5310;
+}
+
+.card__vegeta .card__header {
+  color:rgb(202, 120, 120);
+}
