@@ -1,85 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Honk&family=Lilita+One&display=swap');
+/*importamos las fuentes a usar, en este caso importe dos, son "honk" y "lilita one, esto aplica para el punto 11."*/
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Lilita+One&display=swap");    
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/*en el selector universal reseteamos los valores que trae el navegador, */
+* {                     
+  margin: 0;                               /* El margin que quita el margen externo.*/ 
+  padding: 0;                              /* El padding que quita el margen interno.*/
+  box-sizing: border-box;                   /*Box sizing que permite que el border box incluya tanto el padding y el borde, haciendolo facil de controlar.*/
 }
 
-body {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(to top, #7028e481 0%, #e5b2caa9 100%),url(./characters/space.jpg); ;
-  background-position: center;
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  background-attachment: fixed;
-  
+body {                                     /*el body es el contenedor principal de la pagina*/
+  text-align: center;                      /*el texto se alinea al centro*/
+  background-color: rgba(0, 0, 0, 0);    /*el color de fondo es transparente, esto aplica para el punto 3*/
+  background-image: linear-gradient(to top, #7028e481 0%, #e5b2caa9 100%),
+    url(./characters/space.jpg);           /*el color de fondo es un degradado que va de un color a otro, y la imagen de fondo es una imagen que se encuentra en la carpeta characters, aqui se aplica el punto 4*/
+  background-position: center;             /*la imagen de fondo se centra, Punto 5*/
+  background-repeat: no-repeat;            /*la imagen de fondo no se repite.*/
+  background-size: cover;                  /*la imagen de fondo cubre todo el contenedor, esto aplica para el punto 6*/
+  background-attachment: fixed;            /*la imagen de fondo se fija, esto aplica para el punto 7*/
 }
 
-h1 {
-  margin: 20px 0;
-  font-family: "Honk", system-ui;
-  font-size: 70px;
+h1 {                                       /*el h1 es el Titulo principal de la pagina*/
+  margin: 20px 0;                          /*el margen superior e inferior es de 20px*/
+  font-family: "Honk", system-ui;          /*la fuente es "honk" y el sistema de la computadora, */
+  font-size: 75px;                         /*el tamaño de la fuente es de 70px, cumple con una seccion dle punto 10*/
+  letter-spacing: 2px;                     /*el espaciado entre letras es de 2px, cumple con una seccion dle punto 10*/
 }
 
-.card__header {
+.card__header {                            /*el card header es el encabezado de la tarjeta*/
+  font-family: "Lilita One", sans-serif;   /*la fuente es "lilita one" con una combiancion de sans serif tal vez*/
+  font-size: 22px;                         /*el tamaño de la fuente es de 22px, punto 12*/
+  font-weight: bolder;                     /*el peso de la fuente es bold, punto 12*/                     
+  text-shadow: #c053ffa8 2px 5px 3px;    /*el texto tiene una sombra de color violeta, esto aplica para el punto 10*/
+  text-transform: uppercase;               /*el texto se transforma a mayusculas, punto 10*/
+  color: rgb(75, 32, 2);                 /*el color del texto es un color marron en rbg, esto aplica para el punto 2*/
+}
+
+.container {                               /*el contenedor es el contenedor general de las tarjetas*/
+  max-width: 1400px;                       /*el ancho maximo es de 1400px, punto 17, en este caso no podemos poner un height: auto porque cada imagen es de distinto tamaño lo que haria que la galeria quedara asimetrica.*/
+  margin: 0 auto;                          /*el margen superior e inferior es 0, y los laterales son automáticos para centrar el contenedor horizontalmente*/
+  height: 20vh;                            /*el alto es de 20vh, esto aplica para el punto 16*/
+  width: 400vw;                            /*el ancho es de 400vw, esto aplica para el punto 16*/                   
+}
+
+.card {                                   /*la tarjeta es el contenedor de las tarjetas*/
+  width: 18.7em;                          /*el ancho es de 18.7em, esto aplica para el punto 14*/
+  height: 37em;                           /*el alto es de 37em, esto aplica para el punto 14*/
+  background: linear-gradient(#e6646450, #9198e53a);   /*el fondo es un degradado que va de un color a otro,punto 8*/
+  border-radius: 6px;                     /*el borde es redondeado.*/
+  padding: 10px;                          /*el padding es de 10px.*/
+  display: inline-block;                  /*el display es inline-block, lo que permite que las tarjetas se agrupen en fila */
+  margin: 10px;                           /*el margen es de 10px,*/
+  transition: 1s;                         /*la transicion es de 1s, lo que hace que la tarjeta se vea mas suave al cambiar de estado*/
+  cursor: pointer;                        /*el cursor es un puntero, lo que indica que la tarjeta es clickeable*/       
+  border: none;                           /*el borde es none, lo que hace que no tenga borde*/
+}
+
+.card__body {                             /*el card body es el contenido o cuerpo de la tarjeta*/
+  height: 450px;                          /*el alto es de 450px*/
+  margin: 14px 0;                         /*el margen superior e inferior es de 14px, y los laterales son 0*/
+}
+
+.card img {                              /*la imagen es el elemento de la tarjeta*/
+  width: 100%;                           /*el ancho es de 100%, lo que hace que la imagen ocupe todo el espacio de la tarjeta*/
+  height: 100%;                          /*el alto es de 100%, lo que hace que la imagen ocupe todo el espacio de la tarjeta*/
+  object-fit: contain;                   /*el objeto fit es contain, lo que hace que la imagen se ajuste al contenedor sin perder su proporcion, punto 18*/
+  transition: 1s;                        /*la transicion es de 1s, lo que hace que la imagen se vea mas suave al cambiar de estado*/
+}
+
+.card:hover {                           /*el hover es el estado cuando pasamos el mouse sobre la tarjeta*/
+  background-color: rgba(194, 194, 194, 0.246); /*el color de fondo es un color gris claro, esto aplica para el punto 9*/
+  transition: 1s;                       /*la transicion es de 1s, lo que hace que la tarjeta se vea mas suave al cambiar de estado*/
+}
+
+.card:hover img {                      /*el hover img es el estado cuando pasamos el mouse sobre la imagen*/
+  transform: scale3d(1.2, 1.2, 1.2);   /*la transformacion es un scale3d, lo que hace que la imagen se agrande en 3d, esto aplica para el punto 15*/
+  transition: 1s;                      /*la transicion es de 1s, lo que hace que la imagen se vea mas suave al cambiar de estado*/
+  filter: drop-shadow(#ffffff 5px 5px 10px); /*el filtro es un drop shadow, lo que hace que la imagen tenga una sombra blanca, al clickearlo, punto 1*/
+}
+
+.card__footer {                       /*el card footer es el pie de la tarjeta*/ 
   font-family: "Lilita One", sans-serif;
-  font-size: 22px;
-  text-shadow: #c053ffa8 2px 5px 3px;
-  text-transform: uppercase;
-  color:rgb(75, 32, 2);
+  font-size: 1.1rem;                  /*el tamaño de la fuente es de 1.1rem, esto aplica para el punto 13*/
+  font-style: italic;                 /*el estilo de la fuente es italic, esto aplica para el punto 12*/
 }
 
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-  height: 20vh;
-  width: 400vw;
+.card__gotenks {                     /*el card gotenks es la tarjeta personalizada de gotenks*/
+  background: radial-gradient(       /*el fondo es un degradado radial, esto aplica para el punto 9*/
+    circle at 50% 0%,
+    #ff1e00a8,
+    #3700ff5b,
+    #ea00ff4c
+  );
 }
-
-.card {
-  width: 18.7em;
-  height: 37em;
-  background: linear-gradient(#e6646450, #9198e53a);
-  border-radius: 6px;
-  padding: 10px;
-  display: inline-block;
-  margin: 10px;
-  transition: 1s;
-  cursor: pointer;
-  border: none;
-}
-
-.card__body {
-  height: 450px;
-  margin: 14px 0;
-}
-
-.card img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  transition: 1s;
-}
-
-.card:hover {
-  background-color: rgba(194, 194, 194, 0.246);
-  transition: 1s;
-}
-
-.card:hover img {
-  transform: scale3d(1.2, 1.2, 1.2);
-  transition: 1s;
-  filter: drop-shadow(rgb(255, 255, 255) 5px 5px 10px);
-}
-
-.card__footer {
-  font-family: "Lilita One", sans-serif;
-  font-size: 1.1rem;
-}
-
-/* .card .card__gotenks{
-  background: initial
-  background: radial-gradient(circle at 50% 0%, #a82b2b, #976565, #5e1616, #808080, #4d4d4d, #262626);
-} */
